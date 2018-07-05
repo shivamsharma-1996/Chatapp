@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Chat app</string>
+    <string name="Welcome_to_ChatApp">Welcome to ChatApp</string>
+    <string name="need_a_new_account">need a new account</string>
+    <string name="display_name">Display Name</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="create_account">Create Account</string>
+    <string name="log_out">Log Out</string>
+    <string name="account_settings">My Profile</string>
+    <string name="all_users">All Users</string>
+    <string name="create_a_new_account">Create a New Account</string>
+    <string name="login_to_your_account">Login to Your Account</string>
+    <string name="login">Login</string>
+    <string name="settings_display_name">Display Name</string>
+    <string name="settings_change_image">Change Image </string>
+    <string name="settings_change_status">Change Status</string>
+    <string name="settings_status">Hi there,I\'m using Instant Chat</string>
+    <string name="save_changes">Save Changes</string>
+    <string name="current_user_status">Current User Status</string>
+    <string name="decline_friend_request">Decline Friend Request</string>
+    <string name="profile_display_name">Display Name</string>
+    <string name="send_friend_request">Send Friend Request</string>
+    <string name="total_friends">Total Friends</string>
+    <string name="default_status">Hi there,I\'m using Instant Chat</string>
+
+
+</resources>

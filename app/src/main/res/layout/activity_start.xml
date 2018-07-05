@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    tools:context="com.shivam.chatapp.activities.StartActivity">
+
+    <TextView
+        android:id="@+id/textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Welcome_to_ChatApp"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:textColor="@color/common_google_signin_btn_text_dark_default"
+        android:layout_centerInParent="true" />
+
+    <Button
+        android:id="@+id/start_login_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textview"
+        android:layout_centerHorizontal="true"
+        android:background="@color/colorAccent"
+        android:text="Already Have Account"
+        android:layout_marginTop="15dp"
+        android:padding="13dp"
+        android:textColor="@color/common_google_signin_btn_text_dark_default" />
+
+    <Button
+        android:id="@+id/start_reg_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/need_a_new_account"
+        android:layout_below="@+id/start_login_btn"
+        android:layout_marginTop="15dp"
+        android:padding="13dp"
+        android:background="@color/common_google_signin_btn_text_dark_default"
+        android:textColor="@color/colorPrimary"
+        android:layout_centerHorizontal="true" />
+
+
+</RelativeLayout>

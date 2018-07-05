@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="4dp"
+    android:layout_marginLeft="4dp"
+    android:layout_marginTop="4dp"
+    android:padding="3dp"
+    >
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/user_single_image"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/default_avatar" />
+
+    <TextView
+        android:id="@+id/user_single_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_alignTop="@+id/user_single_image"
+        android:layout_toEndOf="@+id/user_single_image"
+        android:text="Display Name"
+        android:textAllCaps="true"
+        android:textColor="@android:color/black"
+        android:textSize="18dp" />
+
+
+    <ImageView
+        android:id="@+id/user_single_online_icon"
+        android:layout_width="30dp"
+        android:layout_height="25dp"
+        android:src="@drawable/bullet_green"
+        android:layout_toRightOf="@+id/user_single_name"
+        android:layout_alignTop="@+id/user_single_image"
+        android:layout_marginLeft="10dp"
+        android:visibility="invisible"/>
+
+
+    <ImageView
+        android:id="@+id/last_photo_msg"
+        android:layout_width="19dp"
+        android:layout_height="19dp"
+        android:src="@mipmap/photo_camera"
+        android:layout_alignBottom="@+id/user_single_image"
+        android:layout_alignStart="@+id/user_single_name"
+        android:visibility="gone"
+        />
+    <TextView
+        android:id="@+id/user_single_status"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/user_single_image"
+        android:layout_alignStart="@+id/user_single_name"
+        android:text="User Default Status"
+        android:textColor="@android:color/black"
+        android:textSize="17dp" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="#e0e0e0"
+        android:layout_below="@+id/user_single_status"
+        android:layout_toEndOf="@+id/user_single_image"
+        android:layout_marginLeft="7dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="8dp"
+        />
+</RelativeLayout>

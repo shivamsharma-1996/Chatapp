@@ -1,0 +1,63 @@
+{
+  "project_info": {
+    "project_number": "881956389727",
+    "firebase_url": "https://chatapp-113a6.firebaseio.com",
+    "project_id": "chatapp-113a6",
+    "storage_bucket": "chatapp-113a6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:881956389727:android:ec6e86852f33730c",
+        "android_client_info": {
+          "package_name": "com.shivam.chatapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "881956389727-ka0ko08b3ke5rn2e51obgr47869kn62e.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.shivam.chatapp",
+            "certificate_hash": "7044cdbcf0843afb2af7b296fcdea0c6416e3099"
+          }
+        },
+        {
+          "client_id": "881956389727-pl1nnnegn8nd9g93cm4jo4dplngijpc3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.shivam.chatapp",
+            "certificate_hash": "1512e3406d9ca31df91b8c5f18ac1936571e867f"
+          }
+        },
+        {
+          "client_id": "881956389727-3jklshqnq7hcs5nj1naulhqkt96raq5q.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAPJ2xTDSmy_cubhHRes0QgNgv8qiBBIHs"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "881956389727-3jklshqnq7hcs5nj1naulhqkt96raq5q.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
